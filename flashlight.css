@@ -1,0 +1,35 @@
+/*! flashlight.css - 1.0.0 - https://github.com/martinkr/flashlight.css - (c) 2006 Martin Krause - MIT license. */
+
+/**
+ * flashlight.css - https://github.com/martinkr/jQuery.tiltToReveal
+ * @version: 1.0.0;
+ *
+ * Copyright (c) 2006 Martin Krause (martinkr.github.io)
+ * Licensed under the MIT license.
+ *
+ * @author Martin Krause public@mkrause.info
+ * @copyright Martin Krause (martinkr.github.io)
+ * @license MIT http://www.opensource.org/licenses/mit-license.php
+ *
+ * Flash some light on your HTML elements!
+ * Theme: silver;
+ *
+ */
+
+/*silver*/
+* {
+	background-color: rgba(50,54,56,0.15);
+	outline: 1px solid rgba(186,209,181,0.5);
+}
+
+/*blue*/
+::before {
+	background-color: rgba(53,71,140,0.25);
+	outline: 1px dashed rgba(53,71,140,0.95);
+}
+
+/*orange*/
+::after {
+	background-color: rgba(255,85,0,0.35);
+	outline: 1px dashed rgba(255,85,0,0.95);
+}
