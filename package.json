@@ -16,6 +16,6 @@
             "type": "GPL-3.0",
             "url": "http://opensource.org/licenses/gpl-3.0.html"
         }
-    ]
+    ],
     "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
